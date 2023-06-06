@@ -1,18 +1,16 @@
-void main(){
-  int number = 4;                                                  
-    double precent = 90.5;                                             
-    String name = ("almohannad");                                         
-    String lastname ="4";                                                   
-    bool isuser = false;                                             
+void main() {
+int? firstNumber;
+int? secondNumber;
+firstNumber = 5;
+secondNumber = 5;
+firstNumber=0;
 
-    dynamic varibale =50;                                              
-    
+int number = firstNumber; 
+print(number);
 
-    print(number);
-    print(precent); 
-    print(name);
-    print(lastname);
-    print(isuser);
-    print(varibale);
-  
-}  
+if (firstNumber !=null && secondNumber != null){
+ int result =firstNumber + secondNumber ;
+ print(result);
+
+} else {
+}}
